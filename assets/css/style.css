@@ -1,5 +1,5 @@
 header {
-   	height: 50px;
+   	height: 100px;
     width: 100%;
 	color: white;
 	background-color: #ffffff;
@@ -39,16 +39,22 @@ body {
 	width: 220px;
 	text-align: center;
 }
-#entire-content {
+.entire-content {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
 }
 #head-name {
+	position: relative;
+	left: 0;
+	bottom: 0;
 	background-color: #4aaaa5;
 	color: white;
 	width: fit-content;
 	float: left;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding: 25px;
 }
 #main-content {
 	width: 600px;
