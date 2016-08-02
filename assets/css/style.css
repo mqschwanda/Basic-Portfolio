@@ -34,15 +34,28 @@ text {
 body {
 	background-color: #dddddd; 
 }
-#sidebar {
+.main-content-image {
+	float: left;
+}
+.main-content-text {
 	float: right;
-	width: 220px;
-	text-align: center;
 }
 .entire-content {
 	width: 960px;
 	margin-left: auto;
 	margin-right: auto;
+}
+.h-line { 
+	width: 100%; 
+	height: 2px; 
+	background: #dddddd;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.sidebar {
+	float: right;
+	width: 220px;
+	text-align: center;
 }
 #head-name {
 	position: relative;
@@ -68,4 +81,5 @@ body {
 #navigation {
 	float: right;
 	text-decoration: none;
+	width: fit-content;
 }
