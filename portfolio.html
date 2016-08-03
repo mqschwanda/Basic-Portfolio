@@ -3,29 +3,64 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Home: Mark Q Schwanda</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<title>Portfolio: Mark Q Schwanda</title>
 	</head>
 	<body>
 		<header>
-			<h1>Mark Q Schwanda</h1>
-			<div>
-				<a href="index.html">About</a>
-			    <a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
+			<div class="entire-content"> 
+				<h2 id="head-name">Mark Q Schwanda</h2>
+				<ul id="navigation">
+					<li class="border-left"><a href="index.html">About</a></li>
+				    <li><a href="portfolio.html">Portfolio</a></li>
+					<li class="border-right"><a href="contact.html">Contact</a></li>
+				</ul>
 			</div>
 		</header>  
-		<div>
-			<h2>About Me</h2>
-			<img src="http://placehold.it/200x200" alt="Mark Q Schwanda">
-			<p>This will eventually be a short paragraph about myself. Now it is just a lot of words as filler text so we can see how the layout looks. Just need to keep typing words for no reason so this is longer. Just need to keep typing words for no reason so this is longer. Just need to keep typing words for no reason so this is longer. Just need to keep typing words for no reason so this is longer. Just need to keep typing words for no reason so this is longer</p>
+		<div class="entire-content">
+			<div class="main-content" id="main-content">
+				<h2>Portfolio</h2>
+				<div class="h-line"> </div>
+				<!-- Hangman -->
+				<div class="portfolio-image-left">
+					<img src="http://placehold.it/275x275" alt="Hangman">
+					<h3>Hangman</h3>
+				</div>
+				<!-- RPG Game -->
+				<div class="portfolio-image-right">
+					<img src="http://placehold.it/275x275" alt="RPG Game">
+					<h3>RPG Game</h3>
+				</div>
+				<!-- Trivia Game -->
+				<div class="portfolio-image-left">
+					<img src="http://placehold.it/275x275" alt="Trivia Game">
+					<h3>Trivia Game</h3>
+				</div>
+				<!-- Rutgers Info Widget -->
+				<div class="portfolio-image-right">
+					<img src="http://placehold.it/275x275" alt="Rutgers Info Widget">
+					<h3>Rutgers Info Widget</h3>
+				</div>
+				<!-- Rock Paper Scissors -->
+				<div class="portfolio-image-left">
+					<img src="http://placehold.it/275x275" alt="Rock Paper Scissors">
+					<h3>Rock Paper Scissors</h3>
+				</div>
 			</div>
-			<div>
+			<div class="sidebar" id="sidebar">
 				<h3>Connect with Me</h3>
-				<img src="http://placehold.it/50x50" alt="GitHub">
-				<img src="http://placehold.it/50x50" alt="LinkedIn">
-				<img src="http://placehold.it/50x50" alt="Mark Q Schwanda">
-			</div>
+				<div class="h-line"> </div>
+				<a href="https://github.com/mqschwanda" target="_blank">
+					<img src="assets/images/github-logo.png" alt="GitHub">	
+				</a>
+				<a href="https://www.linkedin.com/" target="_blank">
+					<img src="assets/images/linkedin-logo.png" alt="LinkedIn">
+				</a>
+				<a href="http://stackoverflow.com/" target="_blank">
+					<img src="assets/images/stackoverflow-logo.png" alt="StackOverflow" >
+				</a>
+			</div> 
+		</div>	
 			<footer>&copy; Copyright 2016 Mark Q Schwanda</footer>
 	</body>
 </html>

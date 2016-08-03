@@ -3,29 +3,48 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<title>Home: Mark Q Schwanda</title>
+		<link rel="stylesheet" href="assets/css/style.css">
+		<title>Contact: Mark Q Schwanda</title>
 	</head>
 	<body>
 		<header>
-			<h1>Mark Q Schwanda</h1>
-			<div>
-				<a href="index.html">About</a>
-			    <a href="portfolio.html">Portfolio</a>
-				<a href="contact.html">Contact</a>
+			<div class="entire-content"> 
+				<h2 id="head-name">Mark Q Schwanda</h2>
+				<ul id="navigation">
+					<li class="border-left"><a href="index.html">About</a></li>
+				    <li><a href="portfolio.html">Portfolio</a></li>
+					<li class="border-right"><a href="contact.html">Contact</a></li>
+				</ul>
 			</div>
 		</header>  
-		<div>
-			<h2>About Me</h2>
-			<img src="http://placehold.it/200x200" alt="Mark Q Schwanda">
-			<p>This will eventually be a short paragraph about myself. Now it is just a lot of words as filler text so we can see how the layout looks. Just need to keep typing words for no reason so this is longer. Just need to keep typing words for no reason so this is longer. Just need to keep typing words for no reason so this is longer. Just need to keep typing words for no reason so this is longer. Just need to keep typing words for no reason so this is longer</p>
-			</div>
-			<div>
+		<div class="entire-content">
+			<div class="main-content" id="main-content">
+				<h2>Contact</h2>
+				<div class="h-line"> </div>
+					<form>
+  						Name
+  						<input type="text" name="name" value="John Smith">
+  						Email
+  						<input type="email" name="email" value="example@gmail.com">
+  						Message
+  						<textarea rows="10" cols="97" name="message"> </textarea>
+  						<input type="submit" value="Submit">
+					</form>
+				</div>
+			<div class="sidebar" id="sidebar">
 				<h3>Connect with Me</h3>
-				<img src="http://placehold.it/50x50" alt="GitHub">
-				<img src="http://placehold.it/50x50" alt="LinkedIn">
-				<img src="http://placehold.it/50x50" alt="Mark Q Schwanda">
-			</div>
+				<div class="h-line"> </div>
+				<a href="https://github.com/mqschwanda" target="_blank">
+					<img src="assets/images/github-logo.png" alt="GitHub">	
+				</a>
+				<a href="https://www.linkedin.com/" target="_blank">
+					<img src="assets/images/linkedin-logo.png" alt="LinkedIn">
+				</a>
+				<a href="http://stackoverflow.com/" target="_blank">
+					<img src="assets/images/stackoverflow-logo.png" alt="StackOverflow" >
+				</a>
+			</div> 
+		</div>	
 			<footer>&copy; Copyright 2016 Mark Q Schwanda</footer>
 	</body>
 </html>
