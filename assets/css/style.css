@@ -44,7 +44,7 @@ text {
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 body {
-	background-color: #dddddd; 
+	background-color: #dddddd;
 }
 .border-left {
 	border-left:1px solid #bbb;
@@ -128,7 +128,7 @@ body {
     color: #dddddd;
     text-align: center;
     text-decoration: none;
-    padding: 0px 15px;
+    padding: 0px 20px;
 }
 #navigation a:hover:not(.active) {
     background-color: #4aaaa5;
@@ -142,11 +142,12 @@ form {
 input {
 	margin-bottom: 10px;
 }
-textarea {
+textarea, input[type=text], input[type=email]{
 	width: 100%;
+	border-style: inset;
+    border-width: 3px;
 }
 input[type=text], input[type=email] {
-	width:100%;
 	height: 25px;
 }
 input[type=submit] {
