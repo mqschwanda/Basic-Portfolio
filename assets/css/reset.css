@@ -53,9 +53,9 @@
 	}
 	p {
 	  margin: auto auto 1.5rem;
+	  text-indent: 1.5rem;
 	}
 	p + p {
-	  text-indent: 1.5rem;
 	  margin-top: -1.5rem;
 	}
 	h1 {
