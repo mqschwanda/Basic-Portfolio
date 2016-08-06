@@ -13,6 +13,10 @@
 	text {
 		text-decoration-color: #777777;
 	}
+	.clearfix {
+      overflow: auto;
+      zoom: 1;
+    }
 /* Header */
 	header {
 	   	position: relative;
@@ -81,12 +85,13 @@
 			width: 960px;
 			margin-left: auto;
 			margin-right: auto;
-/*			margin-bottom: 1em;*/
+		/*	margin-bottom: 1em;*/
 		}
-/*		header .entire-content {
+		/* header .entire-content {
 			margin-bottom: 0;
 		}*/
 		#main-content {
+			height: 100%;
 			width: 600px;
 			float: left;
 		}
@@ -96,7 +101,7 @@
 			padding: 1em;
 			margin-bottom: 1em;
 		}
-		#sidebar2 iframe {
+		#sidebar2 iframe, #sidebar3 iframe {
 			width: 220px;
 			height: 124px;
 		}
@@ -117,53 +122,53 @@
 		margin-top: 1em;
 		margin-bottom: 1em;
 	}
-/* Form */
-	form {
-		width:100%;
-		height: fit-content;
-		margin:auto;
-		position:relative;
-	}
-	input {
-		margin-bottom: 1em;
-	}
-	textarea, input[type=text], input[type=email]{
-		width: 99%;
-		border-style: inset;
-	    border-width: 3px;
-	}
-	input[type=text], input[type=email] {
-		height: 25px;
-	}
-	input[type=submit] {
-	    padding: 5px 20px; 
-	    background:#4aaaa5; 
-	    border:0 none;
-	    cursor:pointer;
-	    color: white;
-	    font-size: 14px;
-	}
-/* Portfolio Gallery */
-	.portfolio-image-left, .portfolio-image-right {
-		margin: 10px;
-		position: relative;
-	}
-	.portfolio-image-left {
-		float: left;
-	}
-	.portfolio-image-right {
-		float: right;
-	}
-	/* Banner overlay on portfolio images */
-	.portfolio-image-left h6, .portfolio-image-right h6{
-		position: absolute; 
-		bottom: 15%;
-		width: 100%;
-		color: white;
-		background-color: #4aaaa5;
-		padding: 10px 0px;
-		text-align: center;
-	}
+	/* Form */
+		form {
+			width:100%;
+			height: fit-content;
+			margin:auto;
+			position:relative;
+		}
+		input {
+			margin-bottom: 1em;
+		}
+		textarea, input[type=text], input[type=email]{
+			width: 99%;
+			border-style: inset;
+		    border-width: 3px;
+		}
+		input[type=text], input[type=email] {
+			height: 25px;
+		}
+		input[type=submit] {
+		    padding: 5px 20px; 
+		    background:#4aaaa5; 
+		    border:0 none;
+		    cursor:pointer;
+		    color: white;
+		    font-size: 14px;
+		}
+	/* Portfolio Gallery */
+		.portfolio-image-left, .portfolio-image-right {
+			margin: 10px;
+			position: relative;
+		}
+		.portfolio-image-left {
+			float: left;
+		}
+		.portfolio-image-right {
+			float: right;
+		}
+		/* Banner overlay on portfolio images */
+		.portfolio-image-left h6, .portfolio-image-right h6{
+			position: absolute; 
+			bottom: 15%;
+			width: 100%;
+			color: white;
+			background-color: #4aaaa5;
+			padding: 10px 0px;
+			text-align: center;
+		}
 /* Footer */
 	footer {
 		position: relative;
