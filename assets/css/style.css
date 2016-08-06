@@ -14,7 +14,7 @@
 /* Header */
 	header {
 	   	position: relative;
-	   	height: 100px;
+	   	height: 80px;
 	    width: 100%;
 		color: white;
 		background-color: #ffffff;
@@ -26,18 +26,14 @@
 	#head-name {
 		position: absolute;
 		bottom: 0;
-		/* fixes bottom alignment issue
-		bottom: -26px; */
 		background-color: #4aaaa5;
 		color: white;
 		width: fit-content;
 		float: left;
-		padding: 25px;
+		padding: 20px;
 		margin-bottom: 0;
 	}
-
 /* Navigation */
-	
 	/* General */
 		a:visited {
 	    text-decoration: none;
@@ -45,23 +41,25 @@
 		a:link {
 		    text-decoration: none;
 		}
-
 	/* Header Navigation */
 		#navigation {
 			float: right;
 			text-decoration: none;
 			width: fit-content;
 			list-style-type: none;
-		    margin: 48px 0px 0px 0px;
+		    margin: 40px 0px 0px 0px;
 		    padding: 0px;
 		    overflow: hidden;
 		}
+		#navigation div {
+			display: inline-block;
+			float: right;
+		}
 		#navigation a {
-		    display: block;
 		    color: #999999;
 		    text-align: center;
 		    text-decoration: none;
-		    padding: 0px 15px;
+		    padding: 1px 15px;
 		}
 		#navigation a:hover:not(.active) {
 		    background-color: #4aaaa5;
@@ -70,15 +68,10 @@
 		.active {
 	    	background-color: #4CAF50;
 		}
-		#navigation li {
-			display: inline-block;
-			float: right;
-		}
 		#navigation-border {
 			border-left:1px solid #bbb;
 			border-right:1px solid #bbb;
-		}	
-
+		}
 /* Content */
 	
 	/* Layout */
@@ -114,7 +107,6 @@
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
-
 /* Form */
 	form {
 		width:100%;
@@ -141,7 +133,6 @@
 	    color: white;
 	    font-size: 14px;
 	}
-
 /* Portfolio Gallery */
 	.portfolio-image-left, .portfolio-image-right {
 		margin: 10px;
@@ -156,14 +147,13 @@
 	/* Banner overlay on portfolio images */
 	.portfolio-image-left h6, .portfolio-image-right h6{
 		position: absolute; 
-		bottom: 20%;
+		bottom: 15%;
 		width: 100%;
 		color: white;
 		background-color: #4aaaa5;
 		padding: 10px 0px;
 		text-align: center;
 	}
-
 /* Footer */
 	/* Sticky footer */
 	footer {
@@ -172,12 +162,13 @@
 		bottom: 0;
 		width: 100%;
 		border: 50px;
-		padding: 1em;
+		padding: 1em 0;
 	    color: white;
 	    background-color: #666666;
 	    clear: left;
 	    text-align: center;
 		border-top: 10px solid #4aaaa5;
+		margin-top: 40px;
 	}
 	#copyright {
 		font-size: 12px;
