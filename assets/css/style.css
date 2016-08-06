@@ -86,11 +86,15 @@
 			width: 600px;
 			float: left;
 		}
-		#main-content, #sidebar {
+		#main-content, #sidebar1, #sidebar2 , #sidebar3 {
 			background-color: white;
 			border: 1px solid #dddddd;
 			padding: 20px;
 			margin-bottom: 20px;
+		}
+		#sidebar2 iframe {
+			width: 220px;
+			height: 124px;
 		}
 	
 	.main-content-image {
