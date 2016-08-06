@@ -18,11 +18,13 @@
 	   	position: relative;
 	   	height: 80px;
 	    width: 100%;
+		/* Fixes scroll cutoff issue */
+		min-width: 960px;
 		color: white;
 		background-color: #ffffff;
 		text-align: center;
 		border-bottom: 2px solid #d4d4d4;
-		margin-bottom: 20px;
+		margin-bottom: 1em;
 	}
 	/* Box built around name */
 	#head-name {
@@ -32,7 +34,7 @@
 		color: white;
 		width: fit-content;
 		float: left;
-		padding: 20px;
+		padding: .5em;
 		margin-bottom: 0;
 	}
 /* Navigation */
@@ -49,8 +51,7 @@
 			text-decoration: none;
 			width: fit-content;
 			list-style-type: none;
-		    margin: 40px 0px 0px 0px;
-		    padding: 0px;
+		    margin: 2em 0 0 0;
 		    overflow: hidden;
 		}
 		#navigation div {
@@ -75,13 +76,16 @@
 			border-right:1px solid #bbb;
 		}
 /* Content */
-	
 	/* Layout */
 		.entire-content {
 			width: 960px;
 			margin-left: auto;
 			margin-right: auto;
+/*			margin-bottom: 1em;*/
 		}
+/*		header .entire-content {
+			margin-bottom: 0;
+		}*/
 		#main-content {
 			width: 600px;
 			float: left;
@@ -89,30 +93,29 @@
 		#main-content, #sidebar1, #sidebar2 , #sidebar3 {
 			background-color: white;
 			border: 1px solid #dddddd;
-			padding: 20px;
-			margin-bottom: 20px;
+			padding: 1em;
+			margin-bottom: 1em;
 		}
 		#sidebar2 iframe {
 			width: 220px;
 			height: 124px;
 		}
-	
+		.sidebar {
+			float: right;
+			width: 220px;
+			text-align: center;
+		}
 	.main-content-image {
 		float: left;
-		margin: 0px 5px 0px 0px;
-	}
-	.sidebar {
-		float: right;
-		width: 220px;
-		text-align: center;
+		margin: 0 .5em 0 0;
 	}
 	/* Horizontal line break */
 	.h-line { 
 		width: 100%; 
 		height: 2px; 
 		background: #dddddd;
-		margin-top: 10px;
-		margin-bottom: 10px;
+		margin-top: 1em;
+		margin-bottom: 1em;
 	}
 /* Form */
 	form {
@@ -122,7 +125,7 @@
 		position:relative;
 	}
 	input {
-		margin-bottom: 10px;
+		margin-bottom: 1em;
 	}
 	textarea, input[type=text], input[type=email]{
 		width: 99%;
